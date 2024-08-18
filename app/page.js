@@ -15,7 +15,7 @@ const getUser = async () => {
     <div className='p-8 bg-slate-100 mt-5'>
         <ul>
           {users.map((e)=>{
-            return <li>{e.username}</li>
+            return <li>{e.username} --- <a herf="">Explore</a></li>
           })}
         </ul>
     </div>
